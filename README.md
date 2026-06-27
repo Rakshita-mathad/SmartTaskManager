@@ -1,16 +1,235 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📋Smart Task Manager
 
-Currently, two official plugins are available:
+> **A Modern React Task Management Application**  
+> Organize your daily tasks with ease, track your progress, and stay productive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Task Buddy is a responsive task management application built using **React.js**. It allows users to create, manage, and track daily tasks efficiently. The application stores tasks in **Local Storage**, ensuring that your data remains available even after refreshing or reopening the browser.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### ✅ Task Management
+- Add new tasks
+- Delete tasks
+- Mark tasks as Completed / Undo
+- Clear all tasks
+
+### 🎯 Task Details
+- Set **Priority**
+  - 🔴 High
+  - 🟡 Medium
+  - 🟢 Low
+- Select **Category**
+  - 📁 General
+  - 💼 Work
+  - 👤 Personal
+
+### 📊 Progress Tracker
+- Displays completed tasks
+- Animated progress bar
+- Real-time completion percentage
+
+### 💾 Persistent Storage
+- Stores tasks using **Local Storage**
+- Tasks remain even after page refresh
+
+### 📱 Responsive Design
+- Works on Desktop
+- Tablet Friendly
+- Mobile Responsive
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React.js | Frontend Framework |
+| JavaScript | Application Logic |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Local Storage | Data Persistence |
+| Vite | Development Environment |
+
+---
+
+# 📂 Project Structure
+
+```
+TaskBuddy
+│
+├── src
+│   ├── Components
+│   │   ├── Taskform.jsx
+│   │   ├── Tasklist.jsx
+│   │   └── ProgressTracker.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public
+│
+├── package.json
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Rakshita-mathad/SmartTaskManager.git
+```
+
+Go to the project folder
+
+```bash
+cd taskbuddy
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 💻 Application Workflow
+
+1️⃣ Enter a task
+
+⬇️
+
+2️⃣ Select Priority
+
+⬇️
+
+3️⃣ Select Category
+
+⬇️
+
+4️⃣ Click **Add Task**
+
+⬇️
+
+5️⃣ Mark task as Completed or Delete
+
+⬇️
+
+6️⃣ Track progress using the Progress Bar
+
+---
+
+# 📸 Screenshots
+
+### Home Page
+
+_Add your project screenshot here_
+
+```
+assets/home.png
+```
+
+### Task Added
+
+_Add screenshot here_
+
+```
+assets/tasks.png
+```
+
+### Progress Tracker
+
+_Add screenshot here_
+
+```
+assets/progress.png
+```
+
+---
+
+# 🌟 Future Enhancements
+
+- 🔍 Search Tasks
+- ✏️ Edit Tasks
+- 📅 Due Date
+- 🌙 Dark Mode
+- 🔔 Notifications
+- 📈 Statistics Dashboard
+- 🎨 Multiple Themes
+- 🖱️ Drag & Drop Tasks
+- 🔖 Task Filters
+
+---
+
+# 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+- React Components
+- Props
+- useState()
+- useEffect()
+- Event Handling
+- Conditional Rendering
+- Lists & Keys
+- Local Storage
+- Responsive CSS
+- Component Reusability
+
+---
+
+# 👩‍💻 Author
+
+**Rakshita Mathad**
+
+🎓 Information Science & Engineering Graduate
+
+💻 Frontend Developer | React Developer
+
+GitHub:
+https://github.com/Rakshita-mathad
+
+---
+
+# ⭐ Support
+
+If you like this project,
+
+⭐ Star the repository
+
+🍴 Fork it
+
+💡 Share your feedback
+
+---
+
+# 📜 License
+
+This project is developed for educational purposes and personal learning.
+
+© 2026 Rakshita Mathad
+
